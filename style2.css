@@ -1,0 +1,83 @@
+/* header section */
+
+
+.header{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  
+}
+h2{
+  display: flex;
+  justify-content: space-between;
+  font-size: 48px;
+  font-weight: 800;
+}
+.navbar2{
+  display: flex;
+  flex-direction: row;
+  
+}
+.navbar2 p{
+  margin-right: 20px;
+  margin-top: 15px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar2 select{
+  font-size: 16px;
+  font-weight: 800;
+  width: 160px;
+  height: 48px;
+  border-radius: 20px;
+  border: none;
+  background-color: #F6F2EF;
+  align-content: center;
+  justify-content: center;
+  padding-left: 30px;
+  letter-spacing: 5px;
+}
+
+.item1{
+  z-index: 1;
+  color: white;
+  font-size: 20px;
+  margin-left: 230px;
+  background-color: #149770;
+  height: 40px;
+  width: 100px;
+  border-radius: 40px 0px 0px 40px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+span{
+  display: flex;
+}
+.item2{
+  display: flex;
+  justify-content: space-between;
+  align-content: left;
+}
+.item3{
+  text-align: right;
+  margin-left: 100px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.item4{
+  margin-right: 240px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.coffee-card img{
+  border-radius: 20px;
+  z-index: 0;
+/*   align-items: center; */
+}
